@@ -27,7 +27,7 @@
 	$body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
 	$body .= "</tr>";
 	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
-	$body .= "<tr><td></td></tr>";
+	$body .= "<tr><td style="padding:10px"></td></tr>";
 	$body .= "<tr><td colspan='2' style='border:none;'>{$cmessage}</td></tr>";
 	$body .= "</tbody></table>";
 	$body .= "</body></html>";
